@@ -326,7 +326,6 @@ def Add_stud():
         c=sbr.get()
         d=smo.get()
         e=sem.get()
-
         stud_roll[a] = [b, c, d, e]
 
         query = f"insert into all_students values('{a}','{b}','{c}','{d}','{e}')"
