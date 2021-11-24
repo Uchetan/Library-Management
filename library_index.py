@@ -318,7 +318,7 @@ def Return_book():
 
 def Add_stud():
     sleep()
-
+#this is for adding student
     def add_student():
         sleep()
         a=sno.get()
